@@ -75,10 +75,10 @@ img{
     padding: 4px;
     height:300px;
   }
-.posters{
+.posters::after{
     content: "";
     clear: both;
-    display: block;
+    display: table;
     margin-left: auto;
     margin-right: auto;
     cursor: url(img\ cur.cur) , auto;
@@ -86,6 +86,18 @@ img{
 
 a{
     cursor: url(img\ cur.cur) , auto;
+}
+
+.texto{
+    text-align: left;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+}
+
+iframe{
+    margin-left: 5%;
 }
 
 #caminando{
@@ -115,18 +127,6 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
-}
-
-.texto{
-    text-align: left;
-    font-size: 25px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 5%;
-}
-
-iframe{
-    margin-left: 5%;
 }
 
 #end{
