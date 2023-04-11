@@ -23,6 +23,7 @@ html{
 body{
     background-image: url(fondo2.jpg);
     
+    
 }
 
 h1{
@@ -76,18 +77,11 @@ img{
     content: "";
     clear: both;
     display: table;
-    margin-left: auto;
+    margin-left: 8;
     margin-right: auto;
     cursor: url(img\ cur.cur) , auto;
 }
-.posters2{
-    content: "";
-    clear: both;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: url(img\ cur.cur) , auto;
-}
+
 a{
     cursor: url(img\ cur.cur) , auto;
 }
