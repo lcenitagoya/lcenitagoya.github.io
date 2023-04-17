@@ -214,4 +214,18 @@ a {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .post {
+    float: left;
+    width: 200px;
+    padding: 4px;
+    height:300px;
+  }
+.posters::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: url(img\ cur.cur) , auto;
+}
 }
