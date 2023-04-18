@@ -48,7 +48,8 @@ h1{
     align-items: center;
     justify-content: center
   
-}
+} 
+
 
 #caminando{
     width: 150px;
@@ -213,7 +214,7 @@ a {
     }
     .posters{
         display: grid;
-        grid-template-columns:  1fr 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
         }
     
     .post{
