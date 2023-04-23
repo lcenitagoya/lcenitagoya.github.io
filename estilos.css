@@ -228,9 +228,17 @@ a {
         width: 100%;
     }
     .button-56 {
-        height: 5%;
-        width: 30%;
         font-size: 13px;
+        height: 50%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+
+     }
+     .button-56:after{
+        height: 24px;
+        left: 0;
+        width: 100%;
      }
     
 }
