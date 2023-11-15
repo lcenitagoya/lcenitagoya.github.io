@@ -84,6 +84,7 @@ h3{
 img{
     height: 100%;
     width: 100%;
+
 }
 
 #imgboton{
@@ -199,9 +200,8 @@ form{
     margin-right: 25%;
 }
 
-.tituloscomponents{
+.escenas{
     text-align: center;
-    font-size: 50px;
 }
 
 /*#carouselExampleIndicators{
