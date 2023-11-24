@@ -26,6 +26,10 @@ body{
     
 }
 
+.navbar-brand{
+    margin-top: -1.5% !important;
+  }
+
 .arriba{
     font-family: tommy;
     text-align: center;
@@ -34,7 +38,6 @@ body{
 }
 h1{
     font-family: starborn;
-    text-align: center;
     font-size: 50px;
     display: inline;
 }
